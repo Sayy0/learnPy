@@ -7,6 +7,10 @@ print("\n (4) / ")
 
 operation = str(input("\nChoose Operation : "))
 
+if operation == "0":
+    print("Cancelled Operation, exiting program")
+    exit()
+
 num1 = int(input("Num 1 : "))
 num2 = int(input("Num 2 : "))
 
