@@ -19,24 +19,21 @@ if operation == 0:
     print("\nCancelled Operation, exiting program.\n")
     exit()
 else:
-    symbol = ""
-    answer = ""
     num1 = int(input("Num 1 : "))
     num2 = int(input("Num 2 : "))
 
-    match operation:
-        case '1':
-            answer = num1+num2
-            symbol = '+'
-        case '2' :
-            answer = num1-num2
-            symbol = '-'
-        case '3' :
-            answer = num1*num2
-            symbol = 'x'
-        case '4' :
-            answer = num1/num2
-            symbol = '/'
+    if operation == 1:
+        answer = num1 + num2
+        symbol = '+'
+    elif operation == 2:
+        answer = num1 - num2
+        symbol = '-'
+    elif operation == 3:
+        answer = num1 * num2
+        symbol = 'x'
+    else:
+        answer = num1 / num2
+        symbol = '/'
 
     print("\n=======================================")
     print("Answer: " , num1, " ", symbol, " ", num2, " = ", answer)
