@@ -19,6 +19,8 @@ if operation == 0:
     print("\nCancelled Operation, exiting program.\n")
     exit()
 else:
+    symbol = ""
+    answer = ""
     num1 = int(input("Num 1 : "))
     num2 = int(input("Num 2 : "))
 
