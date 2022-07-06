@@ -1,7 +1,7 @@
 import math
 
 print("\n=========================")
-print("\n (0) Cancel Operation)")
+print("\n (0) Cancel Operation")
 print("\n (1) + ")
 print("\n (2) - ")
 print("\n (3) x ")
